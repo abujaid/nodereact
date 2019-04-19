@@ -1,13 +1,18 @@
-import React, { Component } from 'react'
-import News from '../containers/News'
+import React, { Component} from 'react';
+import News from '../containers/News';
 
-export default class Home extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Welcome to MadOwlNews.com</h1>
-                <News />
-            </div>
-        )
-    }
+class Home extends Component {
+	render(){
+		return (
+			<div>
+				<div>Welcome to Owl News</div>
+
+				<div>
+					<News />
+				</div>
+			</div>
+		)
+	}
 }
+
+export default Home
